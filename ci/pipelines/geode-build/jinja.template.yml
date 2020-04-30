@@ -157,23 +157,6 @@ resource_types:
   source:
     repository: frodenas/gcs-resource
 jobs:
-<<<<<<< HEAD
-{% for semverPiece in ['major', 'minor', 'patch'] -%}
-- name: Bump{{ semverPiece.title() }}
-  serial: true
-  plan:
-  - get: geode-build-version
-    params: { bump: {{ semverPiece }},
-              pre: ((semver-prerelease-token)),
-              pre_without_version: true }
-  - put: geode-build-version
-    params:
-      file: geode-build-version/number
-{% endfor %}
-=======
-
-
->>>>>>> Mass-test-run branch, no windows or publication jobs
 - name: {{build_test.name}}
   public: true
   max_in_flight: {{build_test.MAX_IN_FLIGHT}}
