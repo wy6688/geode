@@ -121,7 +121,7 @@ resources:
     driver: gcs
     initial_version: {{ metadata.initial_version }}
     json_key: ((!concourse-gcp-key))
-    key: semvers/((pipeline-prefix))((geode-build-branch))/version
+    key: semvers/((pipeline-prefix))((geode-build-branch))/number
 
 - name: alpine-tools-image
   type: docker-image
