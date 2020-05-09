@@ -64,13 +64,13 @@
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-joda</artifactId>
-        <version>2.9.8</version>
+        <version>2.10.3</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-scala_2.10</artifactId>
-        <version>2.10.0</version>
+        <version>2.10.3</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
@@ -550,19 +550,19 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-annotations</artifactId>
-        <version>2.10.1</version>
+        <version>2.10.3</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.10.1</version>
+        <version>2.10.3</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
-        <version>2.10.1</version>
+        <version>2.10.3</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
@@ -796,85 +796,85 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aspects</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-beans</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-expression</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-oxm</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-tx</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-web</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
-        <version>5.2.5.RELEASE</version>
+        <version>5.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-data-redis</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.6.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>
         <groupId>org.springframework.session</groupId>
         <artifactId>spring-session-data-redis</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.2.RELEASE</version>
         <scope>compile</scope>
       </dependency>
       <dependency>

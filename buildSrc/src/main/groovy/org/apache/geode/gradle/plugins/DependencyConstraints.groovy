@@ -87,8 +87,8 @@ class DependencyConstraints implements Plugin<Project> {
         api(group: 'cglib', name: 'cglib', version: get('cglib.version'))
         api(group: 'com.arakelian', name: 'java-jq', version: '0.10.1')
         api(group: 'com.carrotsearch.randomizedtesting', name: 'randomizedtesting-runner', version: '2.7.7')
-        api(group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-joda', version: '2.9.8')
-        api(group: 'com.fasterxml.jackson.module', name: 'jackson-module-scala_2.10', version: '2.10.0')
+        api(group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-joda', version: '2.10.3')
+        api(group: 'com.fasterxml.jackson.module', name: 'jackson-module-scala_2.10', version: '2.10.3')
         api(group: 'com.github.davidmoten', name: 'geo', version: '0.7.7')
         api(group: 'com.github.stefanbirkner', name: 'system-rules', version: '1.19.0')
         api(group: 'com.github.stephenc.findbugs', name: 'findbugs-annotations', version: '1.3.9-1')
@@ -171,7 +171,7 @@ class DependencyConstraints implements Plugin<Project> {
       }
     }
 
-    dependencySet(group: 'com.fasterxml.jackson.core', version: '2.10.1') {
+    dependencySet(group: 'com.fasterxml.jackson.core', version: '2.10.3') {
       entry('jackson-annotations')
       entry('jackson-core')
       entry('jackson-databind')
@@ -248,7 +248,7 @@ class DependencyConstraints implements Plugin<Project> {
       entry('spring-security-oauth2-jose')
     }
 
-    dependencySet(group: 'org.springframework', version: '5.2.5.RELEASE') {
+    dependencySet(group: 'org.springframework', version: '5.2.6.RELEASE') {
       entry('spring-aspects')
       entry('spring-beans')
       entry('spring-context')
@@ -261,13 +261,13 @@ class DependencyConstraints implements Plugin<Project> {
       entry('spring-webmvc')
     }
 
-    dependencySet(group: 'org.springframework.boot', version: '2.2.1.RELEASE') {
+    dependencySet(group: 'org.springframework.boot', version: '2.2.6.RELEASE') {
       entry('spring-boot-starter')
       entry('spring-boot-starter-web')
       entry('spring-boot-starter-data-redis')
     }
 
-    dependencySet(group: 'org.springframework.session', version: '2.2.1.RELEASE') {
+    dependencySet(group: 'org.springframework.session', version: '2.2.2.RELEASE') {
       entry('spring-session-data-redis')
     }
   }
